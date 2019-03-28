@@ -27,7 +27,7 @@ printf "\e[1m"
 # For both Bold and underlined option on one line
 printf "\e[1m\e[4m"
 
-# Example Linux bash script "recreate the cyan horse"
+# Example Linux bash script "bold, underline, and color cyan"
 Add printf "\n" (newline) if needed
 
 #!/bin/bash
