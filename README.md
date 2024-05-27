@@ -45,3 +45,20 @@
 # for using lolcat instead to color the ascii for motd or other
 	sudo apt install lolcat
 	cat /path/to/ascii_art.txt | lolcat
+
+# Color the text based on a programming language instead.
+
+* useful for quickly coloring help menus in bash scripts
+
+```
+https://pygments.org/demo/
+pygmentize
+
+pygmentize -l <language_option> <<eof
+<ascii-art>
+eof
+
+pygmentize -l csh <<eof
+<Bash_Help_Menu>
+eof
+```
